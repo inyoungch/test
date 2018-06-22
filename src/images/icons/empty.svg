@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M0,4 C0,1.79086 1.79086,0 4,0 L36,0 C38.2091,0 40,1.79086 40,4 L40,36 C40,38.2091 38.2091,40 36,40 L4,40 C1.79086,40 0,38.2091 0,36 L0,4 L0,4 Z" id="Shape" fill="#E5E5E5" sketch:type="MSShapeGroup"></path>
+        <path d="M20.2721,8 C19.7197,8.00008632 19.2721,8.447725 19.272,9.00007 L19.272,19.3138 L8.99997899,19.3137 C8.44770299,19.3137 7.99997842,19.7614 8,20.3137 C7.99993526,20.8661 8.44763899,21.3138 8.99999999,21.3137 L19.272,21.3137 L19.2721,31 C19.2721,31.5523 19.7198,32 20.2721,32 C20.8243,32 21.2721,31.5523 21.272,31 L21.272,21.3138 L30.9999,21.3138 C31.5522,21.3138 31.9999,20.8661 31.9999,20.3138 C32,19.7614 31.5523,19.3137 30.9999,19.3138 L21.272,19.3138 L21.2721,9 C21.2721,8.447747 20.8243,8.00002158 20.2721,8 L20.2721,8 Z" id="Shape" fill="#C4C4C4" sketch:type="MSShapeGroup" transform="translate(19.999950, 20.000000) rotate(45.000000) translate(-19.999950, -20.000000) "></path>
+    </g>
+</svg>

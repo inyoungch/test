@@ -1,0 +1,360 @@
+extends ../template
+
+block variables
+    - var title = 'Test'
+
+block content
+    .wrapper
+        .block1
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                button.info_btn Кошелек Wooppay
+                button.info_btn Картой
+            .btn__prev
+                img.arrow__left(src="assets/images/icons/left.svg")
+                a.btn__prev-link Назад
+            .terms
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__down(src="assets/images/icons/down.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+        .block2
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                button.info_btn Кошелек Wooppay
+                button.info_btn Картой
+            .btn__prev
+                img.arrow__left(src="assets/images/icons/left.svg")
+                a.btn__prev-link Назад
+            .terms.terms--big
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__up(src="assets/images/icons/up.svg")
+                    .terms__desc 
+                        .terms__desc-text ДЛЯ ВАШЕГО УДОБСТВА, 
+                            p после первой оплаты с карты она автоматически будет привязана к вашему счету. В дальнейшем, вы можете совершать оплаты с этой карты (выбрав из раскрывающегося списка «Оплата с карты *ХХХХ», где ХХХХ последние 4 цифры вашей карты»), введя только короткий CVV код или выбрать «Оплатить с карты», если хотите оплатить с другой карты, которая также привяжется после первой оплаты.
+                            p МЫ ГАРАНТИРУЕМ БЕЗОПАСНОСТЬ ВСЕХ ПЛАТЕЖЕЙ!
+                            p Для обеспечения безопасности в системе Wooppay создал собственную платформу для работы с полными карточными данными клиентов. Она соответствует международному стандарту безопасности PCI DSS, учреждённым международными платежными системами Visa и MasterCard.
+                            p ДЛЯ ОПЛАТЫ С ПОМОЩЬЮ ПЛАТЁЖНОЙ КАРТЫ НЕОБХОДИМО, ЧТОБЫ ОНА БЫЛА ОТКРЫТА ДЛЯ ИНТЕРНЕТ-ТРАНЗАКЦИЙ.
+                            p Открыть карту вы сможете, позвонив в банк по телефону, указанному на карте. Подробнее
+                            p Реквизиты вашей платежной карты используются только в момент совершения операции и передаются в Visa / MasterCard по защищенному каналу.
+                        a.terms__desc-hidden Свернуть
+                        img.arrow__up(src="assets/images/icons/up.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+        .block3
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info.info--big
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                .enter_title Вход в кошелек
+                .socials
+                    ul.socials__list    
+                        li.socials__item
+                            a.socials__link #[i.fa.fa-vk]
+                        li.socials__item
+                            a.socials__link #[i.fa.fa-facebook]
+                        li.socials__item
+                            a.socials__link #[i.fa.fa-at]
+                        li.socials__item
+                            a.socials__link #[i.fa.fa-odnoklassniki]
+                input.field.phone(type="text" value="Ваш номер телефона" onfocus="this.value=''")
+                input.field.password(type="text" value="Ваш пароль" onfocus="this.value=''")
+                .enter_btns
+                    button.info_btn.info_btn--small Войти
+                    a.enter_btns__question Забыли пароль?
+                button.info_btn.info_btn--blue Синяя кнопка нажатие
+            .btn__prev
+                img.arrow__left(src="assets/images/icons/left.svg")
+                a.btn__prev-link Назад
+            .terms
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__down(src="assets/images/icons/down.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+        .block4
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info.info--big
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                .card_offer
+                    img.card_offer-pic(src="assets/images/icons/small-card.svg")
+                    .card_offer-title Оплатить с новой карты
+                .card_choose
+                    .card_choose-bank
+                        img.card_choose-bank__pic(src="assets/images/icons/eurasian.svg")
+                        .card_choose-bank__number 4567 65** **** 1234
+                    .card_choose-bank
+                        img.card_choose-bank__pic(src="assets/images/icons/empty.svg")
+                        button.info_btn.info_btn--medium Выбрать
+                .card_choose
+                    .card_choose-bank
+                        img.card_choose-bank__pic(src="assets/images/icons/qazqom.svg")
+                        .card_choose-bank__number 4567 65** **** 1234
+                    .card_choose-bank
+                        img.card_choose-bank__pic(src="assets/images/icons/empty.svg")
+                        button.info_btn.info_btn--medium Выбрать
+            .btn__prev
+                img.arrow__left(src="assets/images/icons/left.svg")
+                a.btn__prev-link Назад
+            .terms
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__down(src="assets/images/icons/down.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+        .block5
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info.info--big
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                .card_offer
+                    img.card_offer-pic.card_offer-pic-big(src="assets/images/icons/big-card.svg")
+                    .card_offer-title Оплатить с другой карты
+                .card_choose
+                    .card_choose-bank
+                        img.card_choose-bank__pic(src="assets/images/icons/eurasian.svg")
+                        .card_choose-bank__number 4567 65** **** 1234
+                    .card_choose-bank
+                        img.card_choose-bank__pic(src="assets/images/icons/empty.svg")
+                        button.info_btn.info_btn--medium Выбрать
+                .card_choose
+                    .card_choose-bank
+                        img.card_choose-bank__pic(src="assets/images/icons/qazqom.svg")
+                        .card_choose-bank__number 4567 65** **** 1234
+                    .card_choose-bank
+                        .card_choose-bank__delete Отвязать карту?
+                        a.card_choose-bank__answer.card_choose-bank__answer-yes Да
+                        a.card_choose-bank__answer.card_choose-bank__answer-no Нет
+            .btn__prev
+                img.arrow__left(src="assets/images/icons/left.svg")
+                a.btn__prev-link Назад
+            .terms
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__down(src="assets/images/icons/down.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+        .block6
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info.info6
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                .card-info
+                    .card-info__head
+                        img.card-info__pic(src="assets/images/wooppay.png")
+                        img.card-info__pic(src="assets/images/card-visa.png")
+                        img.card-info__pic(src="assets/images/card-mastercard.png")
+                    .card-info__field
+                        input.card-info__number(type="text" value="Номер карты" onfocus="this.value=''")
+                    .card-info__block
+                        .card-info__text
+                            .card-info__text-top valid
+                            .card-info__text-bottom thru
+                        select.card-info__month(name="")
+                            option(value="") 01
+                            option(value="") 02
+                        select.card-info__year(name="")
+                            option(value="") 2017
+                            option(value="") 2018
+                        .card-info__text
+                            .card-info__text-top cvv
+                            .card-info__text-bottom cvc
+                        input.card-info__cvv(type="text")
+                    .card-info__field.card-info__transparent
+                        input.card-info__number(type="text" value="Имя держателя" onfocus="this.value=''")
+                button.info_btn Продолжить
+                .warning
+                    .warning__text Осуществлением данной операции вы выражаете своё безусловное согласие c #[a условиями использования кошелька] и #[a правилами системы электронных денег]
+            .btn__prev
+                img.arrow__left(src="assets/images/icons/left.svg")
+                a.btn__prev-link Назад
+            .terms
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__down(src="assets/images/icons/down.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+        .block7
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info.info7
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                img.processing(src="assets/images/loading.svg")
+            .terms
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__down(src="assets/images/icons/down.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+        .block8
+            .logo
+                img.logo-pic(src="assets/images/logo.svg")
+            .info.info8
+                .info_title Оплата счета БК «Olimp.kz»
+                .info_login
+                    .info_login__title Логин:
+                    .info_login__number 1234567
+                .info_sum 
+                    .info_sum__title Сумма к оплате:
+                    .info_sum__amount 50.00 тг
+                .done
+                    img.done__pic(src="assets/images/icons/done.svg")
+                    .done__title Оплата прошла успешно
+                button.info_btn #[img.arrow__left-in(src="assets/images/icons/left.svg")] Вернуться на сайт Olimp.kz
+                .check
+                    img.check__pic(src="assets/images/icons/check.svg")
+                    a.check__link Показать чек
+            .support
+                .support__title Круглосуточная служба поддержки
+                ul.phone__list
+                    li.phone__item
+                        a.phone__link(href="tel:+7 7212 981 090") +7 7212 981 090
+                    li.phone__item
+                        a.phone__link(href="tel:+7 7172 795 004") +7 7172 79 004
+                    li.phone__item
+                        a.phone__link(href="tel:+7 7273 441 414") +7 7273 441 414
+            .terms
+                .terms__title
+                    a.terms__title-link Условия пользования сервисом
+                    img.arrow__down(src="assets/images/icons/down.svg")
+                ul.partners__list
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/woop.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/mastercard.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/visa.svg")
+                    li.partners__item
+                        a.partners__link
+                            img.partners__pic(src="assets/images/pci.svg")
+
+

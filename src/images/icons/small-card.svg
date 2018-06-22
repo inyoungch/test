@@ -1,0 +1,13 @@
+<svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="new card">
+<rect id="Rectangle 3" width="37.037" height="27" rx="4" transform="translate(0 3)" fill="#56CCF2"/>
+<path id="Intersect" fill-rule="evenodd" clip-rule="evenodd" d="M2.8313 0H18.2222C20.4314 0 22.2222 1.79086 22.2222 4V23C22.2222 25.2091 20.4314 27 18.2222 27H12.6832C5.34753 24.7822 0 17.8984 0 9.75C0 6.15689 1.03979 2.80968 2.8313 0Z" transform="translate(14.8148 3)" fill="white" fill-opacity="0.1"/>
+<rect id="Rectangle 4" width="5.18518" height="2.25" rx="1.125" transform="translate(2.96301 19.5)" fill="white"/>
+<rect id="Rectangle 4.4" width="12.5926" height="2.25" rx="1.125" transform="translate(2.96301 24)" fill="white"/>
+<rect id="Rectangle 4.5" width="5.92593" height="2.25" rx="1.125" transform="translate(22.2222 24)" fill="white"/>
+<rect id="Rectangle 4.1" width="5.18518" height="2.25" rx="1.125" transform="translate(9.62964 19.5)" fill="white"/>
+<rect id="Rectangle 4.2" width="5.18518" height="2.25" rx="1.125" transform="translate(16.2963 19.5)" fill="white"/>
+<rect id="Rectangle 4.3" width="5.18518" height="2.25" rx="1.125" transform="translate(22.963 19.5)" fill="white"/>
+<path id="Star" d="M7.40741 0L8.55973 6.33327L14.8148 7.5L8.55973 8.66673L7.40741 15L6.25508 8.66673L0 7.5L6.25508 6.33327L7.40741 0Z" transform="translate(25.1852)" fill="#FFF4BF"/>
+</g>
+</svg>
